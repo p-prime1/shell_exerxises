@@ -1,0 +1,8 @@
+Wait is a system call that is used to pause a parent funtion until the children process have returned
+
+Process
+- Declare the child process and status
+- fork the child process: Create a child process
+- Check for error
+- Check for parent or child process
+- Call the wait function

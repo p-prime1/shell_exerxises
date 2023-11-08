@@ -1,0 +1,13 @@
+Write a function that splits a string 
+prototype - char *strtok(char *str, const char *delim);
+*str - Pointer to the string
+*delim - Delimiter
+
+Process
+- Create a loop
+- (When NULL is passed as *str the strtok continues the iteration)
+- Iterate through the str and check for the delim char
+- Replace it with the '\n'
+- So check if str is == NULL
+- Return the new array
+

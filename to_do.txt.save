@@ -1,0 +1,11 @@
+Task: Write a program that prints "$" waits for the user and prints it on thr next line
+Functions needed:
+printf - To print to stdout
+getline funtion - To read from the Terminal
+While loop - An infinite loop is needed
+
+Process:
+- Start by writing the main function
+- Use the getline function to read from the stdin
+- inside the while loop print $ before entering the loop
+- Then print.

@@ -1,0 +1,19 @@
+Write A function that can run commands with their full path without any argument
+
+Funtions and sytem call  to be used:
+execv
+wait
+fork
+
+I will need an infinite loop
+I will need a getline funtion to read from the prompt
+Process
+- Declare all thats needed: Includes an array child_pid
+- Declare also the pointers for the get line function and assign null
+- Fork the child process
+- Write a while loop
+- Print the prompt
+- Use getline to get the command
+- Check for child process and run command using execve
+- Use get line function to pass 
+- Call wait and continue the loop

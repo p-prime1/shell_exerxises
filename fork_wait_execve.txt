@@ -1,0 +1,17 @@
+Write a program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child.
+Start by:
+
+Declare the necessary header files
+Declare status
+Declare child id
+Declare argv(array to be used for execv)
+
+Write a loop for i less then 5
+fork the child process
+check for error
+
+check if child id = 0
+Pass the execv function with its parameters
+
+else call waitpid with the status (wait pid is used cus of its flexibiltiy
+use exit status macros
